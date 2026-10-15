@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew Lab</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600;1,9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary py-4"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Brew Lab</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#workshops">Workshops</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#inschrijven">Inschrijven</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="home" class="hero py-4">
+        <div class="container text-center">
+          <h1>Word zelf barista</h1>
+          <p class="Fraunces">Versterk ons team als barista!</p>
+          <a href="#inschrijven"
+            ><button type="button" class="btn btn-secondary">
+              Schrijf je in
+            </button></a
+          >
+        </div>
+      </section>
+
+      <section id="Workshops" class="ms-auto">
+        <div class="container">
+          <h2>Onze workshops</h2>
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <article class="card product-card h-100 border-0 shadow-sm">
+                <div class="ratio ratio-4x3">
+                  <img
+                    src="https://picsum.photos/600/400"
+                    class="card-img-top object-fit-cover"
+                    alt="Espresso workshop class workshop"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex justify-content-between align-items-start gap-2 mb-2"
+                  >
+                    <h3 class="card-title h4 mb-0">Espresso basis</h3>
+                  </div>
+                  <p class="card-text text-body-secondary">
+                    In deze workshop leer je de basis van espressos.
+                  </p>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 px-4 pb-4 d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-4 fw-bold">€65</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col">
+              <article class="card product-card h-100 border-0 shadow-sm">
+                <div class="ratio ratio-4x3">
+                  <img
+                    src="https://picsum.photos/600/400"
+                    class="card-img-top object-fit-cover"
+                    alt="Latte art class workshop"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex justify-content-between align-items-start gap-2 mb-2"
+                  >
+                    <h3 class="card-title h4 mb-0">Latte art</h3>
+                  </div>
+                  <p class="card-text text-body-secondary">
+                    In deze workshop leer je mooie latte art maken.
+                  </p>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 px-4 pb-4 d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-4 fw-bold">€75</span>
+                </div>
+              </article>
+            </div>
+
+            <div class="col">
+              <article class="card product-card h-100 border-0 shadow-sm">
+                <div class="ratio ratio-4x3">
+                  <img
+                    src="https://picsum.photos/600/400"
+                    class="card-img-top object-fit-cover"
+                    alt="Filterkoffie class workshop"
+                    loading="lazy"
+                  />
+                </div>
+                <div class="card-body p-4">
+                  <div
+                    class="d-flex justify-content-between align-items-start gap-2 mb-2"
+                  >
+                    <h3 class="card-title h4 mb-0">Filterkoffie</h3>
+                  </div>
+                  <p class="card-text text-body-secondary">
+                    In deze workshop leer je alles over filterkoffies.
+                  </p>
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0 px-4 pb-4 d-flex justify-content-between align-items-center"
+                >
+                  <span class="fs-4 fw-bold">€55</span>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="inschrijven" class="ms-auto py-4">
+        <div class="container">
+          <h2>Inschrijven</h2>
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputName" class="form-label">Naam</label>
+                  <input
+                    type="name"
+                    class="form-control"
+                    id="exampleInputName"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="col">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Espresso basis</option>
+            <option value="1">Latte art</option>
+            <option value="2">Filterkoffie</option>
+          </select>
+          <div class="form-check py-4">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="checkDefault"
+            />
+            <label class="form-check-label" for="checkDefault">
+              Ik ga akkoord met de voorwaarden.
+            </label>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer" class="text-center py-4" data-bs-theme="dark">
+      <div class="container" data-bs-theme="dark">
+        <div id="contact">
+          <p class="mb-0">
+            &copy; 2026 Brew Lab &middot; Koffiestraat 12, Gent
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--bootstrap javascript link onderaan de body-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
